@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background: url("../images/background-background-style-widescreen-high-resolution-wallpaper-background-style-powerpoint-background-style-powerpoint-background-style-css-background-styles-for-websites-background-style-939520438.jpg");
 }
 
 * {
@@ -15,8 +15,34 @@ body {
 .container {
   width: 100%;
   max-width: 960px;
+
   margin: 0 auto;
   clear: both;
+}
+@media (min-width: 600px) {
+  .container {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    font-size: 1rem;
+  }
 }
 
 h1,
@@ -110,7 +136,8 @@ footer {
   height: 50px;
 }
 
-h3, h2 {
+h3,
+h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
@@ -171,7 +198,7 @@ h3, h2 {
 .auth-image {
   float: left;
   width: 200px;
-  height: auto;
+
   margin-top: 10px;
   margin-right: 25px;
 }
@@ -187,15 +214,15 @@ h3, h2 {
 }
 
 label,
-input[type=text],
-input[type=email],
+input[type="text"],
+input[type="email"],
 textarea {
   display: block;
   width: 100%;
 }
 
-input[type=text],
-input[type=email],
+input[type="text"],
+input[type="email"],
 textarea {
   height: 35px;
   padding: 0 10px;
@@ -207,7 +234,7 @@ textarea {
   height: 200px;
 }
 
-input[type=submit] {
+input[type="submit"] {
   padding: 10px 30px;
   font-size: 18px;
   color: #ffffff;
